@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #444444;
+  font-size: 17px;
+  font-family: "Arial Regular", sans-serif;
+  line-height: 1.5;
+  color: #03a3df;
+}
+
+header {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  color: #ffffff;
+  background-color: #03a3df;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  margin-left: 3.5rem;
+  max-width: 100%;
+  height: 60px;
+}
+
+.headerlist {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.headerlist a:link {
+  justify-content: center;
+  align-items: baseline;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.headerlist a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Arial Bold", sans-serif;
+  color: #ecb722;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Arial Bold", sans-serif;
+  color: #ecb722;
+}
+
+h3 {
+  font-size: 17px;
+  font-family: "Arial Bold", sans-serif;
+  color: #ecb722;
+}
+
+p a:link {
+  text-decoration: none;
+  color:#ecb722;
+}
+
+p a:hover {
+  color: #1b447f;
+}
+
+footer {
+  background-image: url("../images/footer-image.jpg");
+  padding: 6em;
+  clear: both;;
+  color: white;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+footer li {
+  float: left;
+}
+
+footer a {
+  color: white;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  max-width: 100%;
+  height: 60px;
+}
+
+video {
+  width: 78%;
+  height: 10%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.italicfont {
+  font-style: italic;
+}
+
+/* Class Schedule styles*/
+table td, th {
+  border: 10px double #1b447f;
+  padding: 8px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+}
+
+th {
+  background-color: #ecb722;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+td {
+  background-color: #03a3df;
+  color: #ecb722;
+  font-weight: bold;
+  white-space: normal;
+}
+
+/* Instructor/Contact styles */
+.instructormain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  background-color: #1b447f
+}
+
+.instructormain article {
+  display: flex;
+  flex-direction: column;
+  color: #03a3df;
+  width: 20vw;
+  margin-left: 5vw;
+  border-top: 4mm solid #03a3df;
+}
+
+.instructormain article h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 1.7rem;
+}
+
+.instructormain article p {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #03a3df;
+}
+
+.instructormain article img {
+  margin-top: 2rem;
+}
+
+address a {
+  color: #ecb722;
+}

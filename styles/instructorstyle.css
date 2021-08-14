@@ -1,0 +1,30 @@
+.instructors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.instructors-article {
+  display: flex;
+  flex-direction: column;
+  color: #036081;
+  width: 20vw;
+  margin-left: 5vw;
+  border-top: 4mm solid #036081;
+}
+
+.instructor-name {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 1.7rem;
+}
+
+.instructor-description {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #03a3df;
+}
+
+.instructor-image {
+  margin-top: 2rem;
+}
