@@ -7,14 +7,14 @@ body {
   font-size: 17px;
   font-family: "Arial Regular", sans-serif;
   line-height: 1.5;
-  color: #03a3df;
+  color: #64CEFC;
 }
 
 header {
   grid-column: 1 / 4;
   grid-row: 1 / 2;
   color: #ffffff;
-  background-color: #03a3df;
+  background-color: #0376A0;
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
@@ -180,4 +180,15 @@ td {
 
 address a {
   color: #ecb722;
+}
+
+/* a11y styling */
+
+.hidden {
+  position: relative;
+  left: -10000px;
+}
+
+.hidden:focus {
+  left: 0;
 }
